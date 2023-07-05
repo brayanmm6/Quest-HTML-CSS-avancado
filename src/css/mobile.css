@@ -1,4 +1,4 @@
-@media(max-width: 900px){
+@media(max-width: 677px){
     body{
         background: url('../images/bg-mobile.svg');
         background-color: var(--color-violet);
@@ -9,9 +9,13 @@
         margin-bottom: 30px;
     }
 
+    header .logo>img{
+        width: 150px;
+    }
+
 
     main .main-picture{
-        max-height: 30vh;
+        max-height: 200px;
     }
 
     main .informations-container{
@@ -43,6 +47,8 @@
         align-items: center;
     }
 
+    
+
     main .main-picture{
         height: 55vh;
     }
@@ -51,10 +57,16 @@
         max-width: 100%;
     }
 
+    main .informations-container{
+        align-items: center;
+        text-align: center;
+    }
+
 
     .social-media{
         justify-content: center;
         padding-bottom: 20px;
+        margin: 0;
     }
 }
 
