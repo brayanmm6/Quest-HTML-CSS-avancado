@@ -29,6 +29,10 @@
         font-size: 3em;
     }
 
+    main .informations-container p{
+        font-size: 1.8em;
+    }
+
     main .informations-container .register{
         width: 220px;
     }
@@ -60,6 +64,10 @@
     main .informations-container{
         align-items: center;
         text-align: center;
+    }
+
+    main .informations-container p{
+        font-size: 2em;
     }
 
 
