@@ -13,6 +13,10 @@
         width: 150px;
     }
 
+    main{
+        flex-direction: column;
+    }
+
 
     main .main-picture{
         max-height: 30vh;
@@ -65,11 +69,6 @@
         align-items: center;
         text-align: center;
     }
-
-    main .informations-container p{
-        font-size: 2em;
-    }
-
 
     .social-media{
         justify-content: center;
